@@ -1,4 +1,4 @@
-# Customer Churn Prediction
+<img width="1906" height="978" alt="image" src="https://github.com/user-attachments/assets/e8981b8e-3b7d-40a2-9d7d-012f11f34a82" /># Customer Churn Prediction
 
 A machine learning project that predicts whether a telecom customer is likely to churn, using supervised classification algorithms. Includes a full EDA-to-deployment pipeline and an interactive Streamlit app for real-time predictions.
 
@@ -92,6 +92,8 @@ customer-churn-prediction/
 ├── screenshots/
 └── README.md
 ```
+
+## App Link: https://customer-churn-prediction-qurssam913.streamlit.app/
 
 ## 📈 Future Improvements
 
