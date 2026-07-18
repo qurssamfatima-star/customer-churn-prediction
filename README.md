@@ -4,7 +4,7 @@ A machine learning project that predicts whether a telecom customer is likely to
 
 ## 📌 Project Overview
 
-Customer churn — when a customer stops using a company's service — is a critical metric for subscription-based businesses. This project analyzes customer behavior data to identify patterns behind churn and builds classification models to predict it, helping businesses proactively retain at-risk customers.
+Customer churn when a customer stops using a company's service  is a critical metric for subscription-based businesses. This project analyzes customer behavior data to identify patterns behind churn and builds classification models to predict it, helping businesses proactively retain at-risk customers.
 
 ## 📊 Dataset
 
@@ -52,7 +52,7 @@ Since the dataset is imbalanced, model comparison prioritized **Precision, Recal
 
 ## 🚀 Deployment
 
-An interactive **Streamlit** app was built to serve real-time predictions based on user-input customer details.
+An interactive **Streamlit** app was built to serve realtime predictions based on user input customer details.
 
 ![Streamlit App Screenshot](screenshots/streamlit_app.png)
 
