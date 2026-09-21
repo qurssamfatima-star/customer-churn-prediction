@@ -1,12 +1,12 @@
-<img width="1906" height="978" alt="image" src="https://github.com/user-attachments/assets/e8981b8e-3b7d-40a2-9d7d-012f11f34a82" /># Customer Churn Prediction
+<img width="1906" height="978" alt="image" src="https://github.com/user-attachments/assets/e8981b8e-3b7d-40a2-9d7d-012f11f34a82" /> Customer Churn Prediction
 
 A machine learning project that predicts whether a telecom customer is likely to churn, using supervised classification algorithms. Includes a full EDA-to-deployment pipeline and an interactive Streamlit app for real-time predictions.
 
-## 📌 Project Overview
+#  Project Overview
 
 Customer churn when a customer stops using a company's service  is a critical metric for subscription-based businesses. This project analyzes customer behavior data to identify patterns behind churn and builds classification models to predict it, helping businesses proactively retain at-risk customers.
 
-## 📊 Dataset
+#  Dataset
 
 - **Source:** [Telco Customer Churn (Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 - **Rows:** 7,043 customers
@@ -14,7 +14,7 @@ Customer churn when a customer stops using a company's service  is a critical me
 - **Target:** `Churn` (Yes/No)
 - **Class distribution:** ~73.5% No Churn, ~26.5% Churn (imbalanced)
 
-## 🔍 Exploratory Data Analysis
+#  Exploratory Data Analysis
 
 Key insights from EDA:
 - Customers with **month-to-month contracts** churn significantly more than those on one/two-year contracts.
@@ -25,7 +25,7 @@ Key insights from EDA:
 ![Churn by Contract Type](screenshots/churn_by_contract.png)
 ![Tenure and Monthly Charges Distribution](screenshots/tenure_monthly_charges.png)
 
-## ⚙️ Preprocessing
+# Preprocessing
 
 - Dropped non-predictive `customerID` column
 - Converted `TotalCharges` to numeric, imputed missing values with median
@@ -34,7 +34,7 @@ Key insights from EDA:
 - Stratified train-test split (80/20) to preserve class balance
 - Feature scaling (`StandardScaler`) for distance/gradient-based models
 
-## 🤖 Models Trained
+# Models Trained
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |---|---|---|---|---|
@@ -50,13 +50,13 @@ Since the dataset is imbalanced, model comparison prioritized **Precision, Recal
 ![Model Performance Comparison](screenshots/model_comparison.png)
 ![Confusion Matrix - Logistic Regression](screenshots/confusion_matrix.png)
 
-## 🚀 Deployment
+# Deployment
 
 An interactive **Streamlit** app was built to serve realtime predictions based on user input customer details.
 
 ![Streamlit App Screenshot](screenshots/streamlit_app.png)
 
-### Running the app locally
+# Running the app locally
 
 ```bash
 # Clone the repository
@@ -70,13 +70,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 - **Language:** Python
 - **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn, joblib, Streamlit
 - **Environment:** Jupyter Notebook (VS Code)
 
-## 📁 Project Structure
+# Project Structure
 
 ```
 customer-churn-prediction/
@@ -93,18 +93,18 @@ customer-churn-prediction/
 └── README.md
 ```
 
-## App Link: https://customer-churn-prediction-qurssam913.streamlit.app/
+# App Link: https://customer-churn-prediction-qurssam913.streamlit.app/
 
-## 📈 Future Improvements
+# Future Improvements
 
 - Handle class imbalance with SMOTE or class weighting to improve recall
 - Hyperparameter tuning (GridSearchCV) across all models
 - Add SHAP/feature importance analysis for model interpretability
 - Deploy publicly via Streamlit Community Cloud
 
-## 👤 Author
+# Author
 
-**Qurssam**
+**Qurssam Fatima**
 BS Artificial Intelligence, Islamia University of Bahawalpur
 
 ---
